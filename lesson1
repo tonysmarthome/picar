@@ -31,20 +31,24 @@ http://shumeipai.net/thread-31938-1-1.html?_dsign=9799473a
 2.2、将电机的线接好，可以用废弃的USB线中获取，也可以直接用杜邦线改造。  
 2.3、按照下图，接好相应线路（可以使用电池组，也可以使用移动电源模块，树莓派5V供电，小车5V供电也可以，但最好6V）：
   
+
+
 3、程序软件：
 3.1、新建一个文件夹，并创立文件，执行下列命令：
 sudo mkdir RaspberryPi-Robot
 复制代码
+
 3.2、命令：
 sudo nano l293d.py
 复制代码
 下载并打开如下文件，复制粘贴里面的内容：
-  l239D.txt (2.85 KB, 下载次数: 2) 
+
 CTRL+O, CTRL+X，退出并保存。为后续做准备。
+
 4、现在，建立小车测试文件：
-sudo nano ceshi1.py
-下载并复制粘贴里面的代码：
-  ceshi1.txt (282 Bytes, 下载次数: 2) 
+sudo nano test.py
+
+
 CTRL+O, CTRL+X，退出并保存
 命令：
 sudo python ceshi1.py
